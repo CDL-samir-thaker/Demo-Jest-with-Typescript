@@ -21,7 +21,7 @@ On the root of this project run `npm i` and you'll be all set. To utilize this l
 4. Always do git pull when opening the project to pull the latest changes, make sure you are logged in npm account.
 
 # Git Configuration
-You should also do the following for Git to keep linear history. Master is locked to be linear only, if you try to merge while not on head or other changes into your branch you'll get a conflict. To easily avoid this run the following to configure your local Git.
+You should also do the following for Git to keep linear history.
 
 git config pull.rebase true
 
