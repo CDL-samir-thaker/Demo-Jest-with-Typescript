@@ -31,13 +31,10 @@ git config --global pull.rebase true
 
  # Usage
  1. To run Jest test at folder level:
- ```typescript
 npm run test demo/test/
 
 2. To run Jest test at file level:
-```typescript
 npm run test demo/test/calc.test.ts
-```
+
 3. To run Jest whole test suits:
-```typescript
-For Ap3: npm run test
+npm run test
