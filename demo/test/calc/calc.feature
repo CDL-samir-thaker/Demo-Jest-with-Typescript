@@ -1,6 +1,6 @@
 Feature: calculator
 
-Scenario Outline: Add two numbers
+Scenario Outline: check calculator functions
     Given I have entered <input_1> into the calculator
     And I have entered <input_2> into the calculator
     When I press <button>
@@ -9,5 +9,4 @@ Scenario Outline: Add two numbers
     Examples:
     | input_1 | input_2 | button | output |
     | 20      | 30      | add    | 50     |
-    | 2       | 5       | add    | 7      |
-    | 0       | 40      | add    | 40     |
+    | 10       | 40      | multiply| 400  |
