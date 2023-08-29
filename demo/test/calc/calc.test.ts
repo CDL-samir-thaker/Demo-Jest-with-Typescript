@@ -1,7 +1,7 @@
 import { multiply, add } from '../../src/calc'
 import { defineFeature, loadFeature } from 'jest-cucumber';
 
-const feature = loadFeature('demo/test/sample/calc.feature');
+const feature = loadFeature('demo/test/calc/calc.feature');
 
 defineFeature(feature, test=>{
   let value1;
@@ -28,7 +28,6 @@ defineFeature(feature, test=>{
     });
   
     then(/^the result should be (.*) on the screen$/, (answer) => {
-      console.log(result)
       expect(result).toEqual(parseFloat(answer))
     });
   });
