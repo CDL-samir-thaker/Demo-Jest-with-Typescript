@@ -1,7 +1,7 @@
-import { multiply, add } from '../src/calc'
+import { multiply, add } from '../../src/calc'
 import { defineFeature, loadFeature } from 'jest-cucumber';
 
-const feature = loadFeature('demo/test/calc.feature');
+const feature = loadFeature('demo/test/sample/calc.feature');
 
 defineFeature(feature, test=>{
   let value1;
