@@ -9,4 +9,4 @@ Scenario Outline: check calculator functions
     Examples:
     | input_1 | input_2 | button | output |
     | 20      | 30      | add    | 50     |
-    | 10       | 40      | multiply| 400  |
+    | 1       | 4      | multiply| 4  |
